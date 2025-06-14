@@ -7,8 +7,14 @@ const PORT = 2000;
 app.use('/items', itemRouter);
 
 app.get('/', (req, res) => {
-    res.send('Hello, World!');
-})
+    try {
+        res.send('Hello, World!');
+    } catch (error) {
+
+        res.status(500).send('Something went wrong on the server.');
+    }
+});
+
 
 app.listen(PORT, () => {
     console.log(`Server is running on port ${PORT}`);
