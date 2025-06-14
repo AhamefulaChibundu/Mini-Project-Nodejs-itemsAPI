@@ -186,7 +186,7 @@ Success Response:
 Error Response(404):
 ```json
 {
-  "message": "Item with ID abc123 not found."
+  "message": "Item with ID 7c34a1da-2649-49ab-b02a-4ab125c9d not found"
 }
 ``` 
 
