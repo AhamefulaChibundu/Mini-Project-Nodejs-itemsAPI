@@ -28,7 +28,7 @@ A simple and clean RESTful API built with **Node.js** and **Express.js** to mana
 ### 1. Clone the repository
 
 ```bash
-git clone ttps://github.com/AhamefulaChibundu/Mini-Project-Nodejs-itemsAPI.git
+git clone htps://github.com/AhamefulaChibundu/Mini-Project-Nodejs-itemsAPI.git
 ```
 
 ### 2. Change directory to access files
